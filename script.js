@@ -1,4 +1,4 @@
-var MAKEYOURCHOICE = 'Welcome Agent, input correctly and precisely.'
+var MAKEYOURCHOICE = 'Welcome Agent, input the login quickly and precisely'
 var WHENWILLYOUFACEUS = 0;
 function FINDOUTTHETRUTH() {
     if (WHENWILLYOUFACEUS < MAKEYOURCHOICE.length) {
