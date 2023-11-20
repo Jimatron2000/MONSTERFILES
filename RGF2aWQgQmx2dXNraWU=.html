@@ -14,17 +14,19 @@ document.addEventListener('DOMContentLoaded', function() {
         }
      }
      type()
-     const coll = document.querySelector('.collapsible');
-    const content = document.querySelector('.content');
+  const colls = document.querySelectorAll('.collapsible');
 
-  coll.addEventListener('click', function() {
-    this.classList.toggle('active');
-    if (content.style.display === 'block') {
-      content.style.display = 'none';
-    } else {
-      content.style.display = 'block';
-    }
-});
+  colls.forEach(function(coll) {
+    coll.addEventListener('click', function() {
+      const content = this.nextElementSibling;
+      this.classList.toggle('active');
+      if (content.style.display === 'block') {
+        content.style.display = 'none';
+      } else {
+        content.style.display = 'block';
+      }
+    });
+  });
 });
 
 </script>
