@@ -9,6 +9,22 @@ body {
   background-color: black;
   outline: solid #36BA01;
 }
+.collapsible {
+  background-color:black;
+  color:#36BA01;
+  padding: 18px;
+  width: 100px;
+  border: none;
+  text-align: left;
+  outline:solid #36BA01;
+  font-size: 15px;
+}
+.content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #3a3a3a;
+}
 * {
   color: #36BA01;
   font-family: Consolas, monaco, monospace;
