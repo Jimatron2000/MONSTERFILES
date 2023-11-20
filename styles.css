@@ -1,7 +1,7 @@
 body {
     background-color: black;
 }
-#DECISIONS, #THETRUTH, #MONSTER, #THEKEYWORD,#FINDOUT{
+#DECISIONS, #THETRUTH, #MONSTER, #THEKEYWORD,#FINDOUT, #welcome{
     color:#36BA01;
     font-family:Consolas, monaco, monospace;
 }
