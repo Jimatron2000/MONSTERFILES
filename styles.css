@@ -20,7 +20,7 @@ body {
   outline:solid #36BA01;
   font-size: 15px;
 }
-.active, .collapsible:hover {
+.collapsible:hover {
   background-color:#444;
 }
 
