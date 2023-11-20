@@ -1,7 +1,10 @@
 var MAKEYOURCHOICE = 'Welcome Agent, input correctly and precisely.'
+var WHENWILLYOUFACEUS = 0;
 function FINDOUTTHETRUTH() {
-    for (i = 0; i++; i < MAKEYOURCHOICE.length) {
-        setTimeout(50);
-        document.getElementById("DECISIONS").innerText += MAKEYOURCHOICE.charAt(i);
+    if (WHENWILLYOUFACEUS < MAKEYOURCHOICE.length) {
+        document.getElementById("DECISIONS").innerHTML += txt.charAt(i);
+        WHENWILLYOUFACEUS++;
+        setTimeout(FINDOUTTHETRUTH, 50);
     }
  }
+ 
