@@ -9,3 +9,21 @@ body {
   background-color: black;
   outline: solid #36BA01;
 }
+* {
+  font-family: Consolas, monaco, monospace;
+ }
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+  outline: solid #36BA01;
+  }
+.logo {
+      max-width: 100px;
+  }
+  .info {
+      color: #36BA01;
+      text-align: right;
+  }
+main {color: #36BA01; text-align: center;}
