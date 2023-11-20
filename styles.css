@@ -19,6 +19,9 @@ body {
   outline:solid #36BA01;
   font-size: 15px;
 }
+.active, .collapsible:hover {
+  background-color: #3f3e3e;
+}
 .content {
   padding: 0 18px;
   display: none;
