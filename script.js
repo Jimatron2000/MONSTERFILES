@@ -10,3 +10,4 @@ function FINDOUTTHETRUTH() {
         hasran = false;
     }
  }
+FINDOUTTHETRUTH();

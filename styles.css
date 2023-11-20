@@ -1,7 +1,11 @@
 body {
     background-color: black;
 }
-#DECISIONS {
-    color:greenyellow;
+#DECISIONS, #THETRUTH, #MONSTER, #THEKEYWORD,#FINDOUT{
+    color:#36BA01;
     font-family:Consolas, monaco, monospace;
+}
+#MONSTER, #THEKEYWORD, #FINDOUT {
+  background-color: black;
+  outline: solid #36BA01;
 }
