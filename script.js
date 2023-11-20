@@ -9,14 +9,5 @@ document.addEventListener('DOMContentLoaded', function() {
         }
      }
      FINDOUTTHETRUTH()
-    function check() {
-        var a = document.getElementById("MONSTER").value;
-        var b = document.getElementById("THEKEYWORD").value;
-        if (a == "Jimmy Jimatron" && b == "other") {
-            window.location.replace(SklNTVkgSklNQVRST04g.html)
-        }
-        else {
-            window.location.replace("https://www.youtube.com/watch?v=hiRacdl02w4")
-        }
-    }
+
   });
