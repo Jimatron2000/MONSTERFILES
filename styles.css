@@ -12,21 +12,24 @@ body {
 .collapsible {
   background-color:black;
   color:#36BA01;
+  cursor: pointer;
   padding: 18px;
-  width: 100px;
+  width: 100%;
   border: none;
   text-align: left;
   outline:solid #36BA01;
   font-size: 15px;
 }
 .active, .collapsible:hover {
-  background-color: #3f3e3e;
+  background-color:#444;
 }
+
+/* Style the collapsible content. Note: hidden by default */
 .content {
   padding: 0 18px;
   display: none;
   overflow: hidden;
-  background-color: #3a3a3a;
+  background-color: #444;
 }
 * {
   color: #36BA01;
