@@ -3,7 +3,7 @@ var WHENWILLYOUFACEUS = 0;
 document.addEventListener('DOMContentLoaded', function() {
     function FINDOUTTHETRUTH() {
         if (WHENWILLYOUFACEUS < MAKEYOURCHOICE.length) {
-            document.getElementById("DECISIONS").innerText += MAKEYOURCHOICE.charAt(WHENWILLYOUFACEUS);
+            document.getElementById("DECISIONS").innerHTML += MAKEYOURCHOICE.charAt(WHENWILLYOUFACEUS);
             WHENWILLYOUFACEUS++;
             setTimeout(FINDOUTTHETRUTH, 50);
         }
